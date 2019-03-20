@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT">
+  <meta name="keywords" content="cookbooks,">
 
 
 
@@ -79,17 +79,18 @@
 
 
 
-<meta name="description" content="1234title: 第八章：类与对象(1)date：2019-03-20tags：cookbookscategories: python 第八章：类与对象字符串显示__repr__() 方法返回一个实例的代码表示形式，通常用来重新构造这个实例。 内置的 repr() 函数返回这个字符串，跟我们使用交互式解释器显示的值是一样的。 __str__() 方法将实例转换为一个字符串，使用 str() 或">
+<meta name="description" content="字符串显示__repr__() 方法返回一个实例的代码表示形式，通常用来重新构造这个实例。 内置的 repr() 函数返回这个字符串，跟我们使用交互式解释器显示的值是一样的。 __str__() 方法将实例转换为一个字符串，使用 str() 或 print() 函数会输出这个字符串">
+<meta name="keywords" content="cookbooks">
 <meta property="og:type" content="article">
-<meta property="og:title" content="我的一分59s">
+<meta property="og:title" content="第八章：类与对象(1)">
 <meta property="og:url" content="https://renkth.github.io/renkth.github.io/2019/03/20/第八章：类与对象/index.html">
 <meta property="og:site_name" content="我的一分59s">
-<meta property="og:description" content="1234title: 第八章：类与对象(1)date：2019-03-20tags：cookbookscategories: python 第八章：类与对象字符串显示__repr__() 方法返回一个实例的代码表示形式，通常用来重新构造这个实例。 内置的 repr() 函数返回这个字符串，跟我们使用交互式解释器显示的值是一样的。 __str__() 方法将实例转换为一个字符串，使用 str() 或">
+<meta property="og:description" content="字符串显示__repr__() 方法返回一个实例的代码表示形式，通常用来重新构造这个实例。 内置的 repr() 函数返回这个字符串，跟我们使用交互式解释器显示的值是一样的。 __str__() 方法将实例转换为一个字符串，使用 str() 或 print() 函数会输出这个字符串">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-03-20T12:11:51.587Z">
+<meta property="og:updated_time" content="2019-03-20T12:38:06.765Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="我的一分59s">
-<meta name="twitter:description" content="1234title: 第八章：类与对象(1)date：2019-03-20tags：cookbookscategories: python 第八章：类与对象字符串显示__repr__() 方法返回一个实例的代码表示形式，通常用来重新构造这个实例。 内置的 repr() 函数返回这个字符串，跟我们使用交互式解释器显示的值是一样的。 __str__() 方法将实例转换为一个字符串，使用 str() 或">
+<meta name="twitter:title" content="第八章：类与对象(1)">
+<meta name="twitter:description" content="字符串显示__repr__() 方法返回一个实例的代码表示形式，通常用来重新构造这个实例。 内置的 repr() 函数返回这个字符串，跟我们使用交互式解释器显示的值是一样的。 __str__() 方法将实例转换为一个字符串，使用 str() 或 print() 函数会输出这个字符串">
 
 
 
@@ -125,7 +126,7 @@
 
 
 
-  <title> | 我的一分59s</title>
+  <title>第八章：类与对象(1) | 我的一分59s</title>
   
 
 
@@ -286,7 +287,7 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="我的一分59s">
       <meta itemprop="description" content>
-      <meta itemprop="image" content="http://i1.bvimg.com/678194/85cd8f11d570a738.jpg">
+      <meta itemprop="image" content="/renkth.github.io/images/user.jpg">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -298,7 +299,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline"></h1>
+          <h1 class="post-title" itemprop="name headline">第八章：类与对象(1)</h1>
         
 
         <div class="post-meta">
@@ -310,7 +311,7 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-03-20T20:09:46+08:00">
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-03-20T00:00:00+08:00">
                 2019-03-20
               </time>
             
@@ -320,6 +321,28 @@
             
           </span>
 
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/renkth.github.io/categories/python/" itemprop="url" rel="index">
+                    <span itemprop="name">python</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -348,8 +371,7 @@
       
 
       
-        <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">title: 第八章：类与对象(1)</span><br><span class="line">date：2019-03-20</span><br><span class="line">tags：cookbooks</span><br><span class="line">categories: python</span><br></pre></td></tr></table></figure>
-<h1 id="第八章：类与对象"><a href="#第八章：类与对象" class="headerlink" title="第八章：类与对象"></a>第八章：类与对象</h1><h3 id="字符串显示"><a href="#字符串显示" class="headerlink" title="字符串显示"></a>字符串显示</h3><p><code>__repr__()</code> 方法返回一个实例的代码表示形式，通常用来重新构造这个实例。 内置的 <code>repr()</code> 函数返回这个字符串，跟我们使用交互式解释器显示的值是一样的。 <code>__str__()</code> 方法将实例转换为一个字符串，使用 <code>str()</code> 或 <code>print()</code> 函数会输出这个字符串 </p>
+        <h3 id="字符串显示"><a href="#字符串显示" class="headerlink" title="字符串显示"></a>字符串显示</h3><p><code>__repr__()</code> 方法返回一个实例的代码表示形式，通常用来重新构造这个实例。 内置的 <code>repr()</code> 函数返回这个字符串，跟我们使用交互式解释器显示的值是一样的。 <code>__str__()</code> 方法将实例转换为一个字符串，使用 <code>str()</code> 或 <code>print()</code> 函数会输出这个字符串 </p>
 <a id="more"></a>
 <h3 id="字符串格式化"><a href="#字符串格式化" class="headerlink" title="字符串格式化"></a>字符串格式化</h3><p>为了自定义字符串的格式化，我们需要在类上面定义 <code>__format__()</code> 方法 </p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">_format = &#123;</span><br><span class="line">    &apos;ymd&apos;:&apos;&#123;d.year&#125;-&#123;d.month&#125;-&#123;d.day&#125;&apos;,</span><br><span class="line">    &apos;mdy&apos;:&apos;&#123;d.month&#125;-&#123;d.day&#125;-&#123;d.year&#125;&apos;,</span><br><span class="line">    &apos;dym&apos; : &apos;&#123;d.day&#125;-&#123;d.month&#125;-&#123;d.year&#125;&apos;</span><br><span class="line">&#125;</span><br><span class="line">class Date:</span><br><span class="line">    def __init__(self,year,month,day):</span><br><span class="line">        self.year = year</span><br><span class="line">        self.month = month</span><br><span class="line">        self.day = day</span><br><span class="line">    def __format__(self, code):</span><br><span class="line">        if code == &quot;&quot;:</span><br><span class="line">            code = &quot;ymd&quot;</span><br><span class="line">        fmt = _format[code]</span><br><span class="line">        return fmt.format(d=self)</span><br><span class="line"></span><br><span class="line">d = Date(2019,3,20)</span><br><span class="line">print (format(d))</span><br><span class="line">print (format(d,&apos;mdy&apos;))</span><br></pre></td></tr></table></figure>
@@ -439,6 +461,12 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/renkth.github.io/tags/cookbooks/" rel="tag"># cookbooks</a>
+          
+        </div>
+      
 
       
       
@@ -448,8 +476,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/renkth.github.io/2019/03/02/迭代对象-迭代器-生成器/" rel="next" title="迭代对象 迭代器 生成器">
-                <i class="fa fa-chevron-left"></i> 迭代对象 迭代器 生成器
+              <a href="/renkth.github.io/2019/03/02/python新式类和经典类/" rel="next" title="python新式类和经典类">
+                <i class="fa fa-chevron-left"></i> python新式类和经典类
               </a>
             
           </div>
@@ -458,8 +486,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/renkth.github.io/2019/03/20/python的执行顺序/" rel="prev" title>
-                 <i class="fa fa-chevron-right"></i>
+              <a href="/renkth.github.io/2019/03/20/python的执行顺序/" rel="prev" title="python的执行顺序">
+                python的执行顺序 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -552,7 +580,7 @@ var jiathis_config={
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
-              <img class="site-author-image" itemprop="image" src="http://i1.bvimg.com/678194/85cd8f11d570a738.jpg" alt="我的一分59s">
+              <img class="site-author-image" itemprop="image" src="/renkth.github.io/images/user.jpg" alt="我的一分59s">
             
               <p class="site-author-name" itemprop="name">我的一分59s</p>
               <p class="site-description motion-element" itemprop="description"></p>
@@ -587,7 +615,7 @@ var jiathis_config={
               
               <div class="site-state-item site-state-tags">
                 <a href="/renkth.github.io/tags/index.html">
-                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -630,7 +658,7 @@ var jiathis_config={
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#第八章：类与对象"><span class="nav-number">1.</span> <span class="nav-text">第八章：类与对象</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#字符串显示"><span class="nav-number">1.0.1.</span> <span class="nav-text">字符串显示</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#字符串格式化"><span class="nav-number">1.0.2.</span> <span class="nav-text">字符串格式化</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#让对象支持上下文管理协议with语句"><span class="nav-number">1.0.3.</span> <span class="nav-text">让对象支持上下文管理协议with语句</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#创建大量对象是节省内存的方法"><span class="nav-number">1.0.4.</span> <span class="nav-text">创建大量对象是节省内存的方法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#在类中封装属性名"><span class="nav-number">1.0.5.</span> <span class="nav-text">在类中封装属性名</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#创建可管理的属性"><span class="nav-number">1.0.6.</span> <span class="nav-text">创建可管理的属性</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#问题"><span class="nav-number">1.0.6.1.</span> <span class="nav-text">问题</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#解决方案"><span class="nav-number">1.0.6.2.</span> <span class="nav-text">解决方案</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#讨论"><span class="nav-number">1.0.6.3.</span> <span class="nav-text">讨论</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#调用父类方法"><span class="nav-number">1.0.7.</span> <span class="nav-text">调用父类方法</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#字符串显示"><span class="nav-number">1.</span> <span class="nav-text">字符串显示</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#字符串格式化"><span class="nav-number">2.</span> <span class="nav-text">字符串格式化</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#让对象支持上下文管理协议with语句"><span class="nav-number">3.</span> <span class="nav-text">让对象支持上下文管理协议with语句</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#创建大量对象是节省内存的方法"><span class="nav-number">4.</span> <span class="nav-text">创建大量对象是节省内存的方法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#在类中封装属性名"><span class="nav-number">5.</span> <span class="nav-text">在类中封装属性名</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#创建可管理的属性"><span class="nav-number">6.</span> <span class="nav-text">创建可管理的属性</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#问题"><span class="nav-number">6.1.</span> <span class="nav-text">问题</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#解决方案"><span class="nav-number">6.2.</span> <span class="nav-text">解决方案</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#讨论"><span class="nav-number">6.3.</span> <span class="nav-text">讨论</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#调用父类方法"><span class="nav-number">7.</span> <span class="nav-text">调用父类方法</span></a></li></ol></div>
             
 
           </div>
